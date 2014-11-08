@@ -75,7 +75,10 @@
      <Compile Include="Assets\Scripts\AlarmSystem\LaserBlinking.cs" />
      <Compile Include="Assets\Scripts\AlarmSystem\LaserPlayerDetection.cs" />
      <Compile Include="Assets\Scripts\AlarmSystem\LaserSwitchDeactivation.cs" />
+     <Compile Include="Assets\Scripts\GameController\HashIDs.cs" />
      <Compile Include="Assets\Scripts\GameController\LastPlayerSighting.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SceneFader\SceneFadeInOut.cs" />
      <Compile Include="Assets\Scripts\Unapplied\Tags.cs" />
      <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
