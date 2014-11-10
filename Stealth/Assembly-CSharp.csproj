@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\AlarmSystem\LaserBlinking.cs" />
      <Compile Include="Assets\Scripts\AlarmSystem\LaserPlayerDetection.cs" />
      <Compile Include="Assets\Scripts\AlarmSystem\LaserSwitchDeactivation.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyAnimation.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyShoot.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemySight.cs" />
