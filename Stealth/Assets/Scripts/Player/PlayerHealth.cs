@@ -62,4 +62,9 @@ public class PlayerHealth : MonoBehaviour
 			sceneFadeInOut.EndScene ();
 		}
 	}
+
+	public void TakeDamage (float amount)
+	{
+		health = health - amount;
+	}
 }
