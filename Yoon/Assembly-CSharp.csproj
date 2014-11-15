@@ -48,7 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Assets\Game\Scripts\Camera\CameraMovement.cs" />
      <Compile Include="Assets\Assets\Game\Scripts\Game Controller\GameController.cs" />
-     <Compile Include="Assets\Assets\Game\Scripts\Game Controller\Tags.cs" />
+     <Compile Include="Assets\Assets\Game\Scripts\Game Controller\HashIDs.cs" />
+     <Compile Include="Assets\Assets\Game\Scripts\Game Controller\Tag.cs" />
+     <Compile Include="Assets\Assets\Game\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Assets\Resources\Imports\Characters\Elf\Script\Elf_Manager.cs" />
      <Compile Include="Assets\Assets\Resources\Imports\Characters\Elf\Script\Manager.cs" />
      <Compile Include="Assets\Assets\Resources\Imports\Characters\PQAssets\Query-Chan\Scripts\1.Locomotion\LocomotionGUI.cs" />
