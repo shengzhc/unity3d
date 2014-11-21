@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Game\Scripts\Player\YoonAnimationState.cs" />
+     <Compile Include="Assets\Game\Scripts\Player\YoonAnimationController.cs" />
      <Compile Include="Assets\Game\Scripts\Player\YoonMovement.cs" />
      <Compile Include="Assets\Resources\Imports\Characters\PQAssets\Query-Chan\Scripts\1.Locomotion\LocomotionGUI.cs" />
      <Compile Include="Assets\Resources\Imports\Characters\PQAssets\Query-Chan\Scripts\1.Locomotion\QueryLocomotionCamera.cs" />
