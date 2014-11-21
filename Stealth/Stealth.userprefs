@@ -1,9 +1,24 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Yoon/Assets/Assets/Game/Scripts/Camera/CameraMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Yoon/Assets/Assets/Resources/Imports/Characters/PQAssets/Query-Chan/Scripts/GUIController.cs">
     <Files>
-      <File FileName="../Yoon/Assets/Assets/Game/Scripts/Camera/CameraMovement.cs" Line="13" Column="1" />
+      <File FileName="../Yoon/Assets/Assets/Resources/Imports/Characters/PQAssets/Query-Chan/Scripts/GUIController.cs" Line="23" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Done" expanded="True">
+              <Node name="DoneScripts" expanded="True">
+                <Node name="PlayerScripts" expanded="True">
+                  <Node name="DonePlayerMovement.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -1,19 +1,29 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets/Game/Scripts/Player/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets/Game/Scripts/Player/YoonMovement.cs">
     <Files>
-      <File FileName="Assets/Assets/Game/Scripts/Player/PlayerMovement.cs" Line="21" Column="4" />
-      <File FileName="Assets/Assets/Game/Scripts/Game Controller/HashIDs.cs" Line="1" Column="1" />
+      <File FileName="Assets/Assets/Game/Scripts/Player/YoonAnimationState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Assets/Game/Scripts/Player/YoonAnimationState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Assets/Resources/Imports/Characters/PQAssets/Query-Chan/Scripts/QueryAnimationController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Assets/Resources/Imports/Characters/PQAssets/Query-Chan/Scripts/QueryMechanimController.cs" Line="109" Column="10" />
+      <File FileName="Assets/Assets/Resources/Imports/Characters/PQAssets/Query-Chan/Scripts/1.Locomotion/QueryLocomotionController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Assets/Game/Scripts/Player/YoonMovement.cs" Line="23" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Game" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="Player" expanded="True">
-                    <Node name="PlayerMovement.cs" selected="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Imports" expanded="True">
+                  <Node name="Characters" expanded="True">
+                    <Node name="PQAssets" expanded="True">
+                      <Node name="Query-Chan" expanded="True">
+                        <Node name="Scripts" expanded="True">
+                          <Node name="QueryMechanimController.cs" selected="True" />
+                        </Node>
+                      </Node>
+                    </Node>
                   </Node>
                 </Node>
               </Node>
