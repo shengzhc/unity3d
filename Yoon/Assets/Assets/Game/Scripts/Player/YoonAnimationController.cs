@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class YoonAnimationController : MonoBehaviour 
 {
 	private List<string> animationClips = new List<string> ();
-	private bool isJumping = false;
+	private Transform yoonBody;
 
 	public enum YoonAnimationType 
 	{
@@ -39,15 +39,38 @@ public class YoonAnimationController : MonoBehaviour
 		HW_IDLE,
 		HW_WAIT_LONG,
 		HW_TRICK,
-		HW_MAHOU
+		HW_MAHOU,
+		HW_ATTACK
+	}
+
+	AnimationState AnimationStateWithType(YoonAnimationType type) 
+	{
+		string name = animationClips [(int)type];
+		return animation [name];
 	}
 	
 	void Awake ()
 	{
+		yoonBody = GameObject.Find ("/Yoon/Chr_Reference").transform;
 		foreach (AnimationState animationState in animation) {
 			animationClips.Add (animationState.name);
 		}
 		animationClips.Sort ();
+		SetupAnimations ();
+	}
+
+	void SetupAnimations ()
+	{
+		AnimationStateWithType (YoonAnimationType.STAND).layer = 0;
+		AnimationStateWithType (YoonAnimationType.IDLE).layer = 0;
+		AnimationStateWithType (YoonAnimationType.WALK).layer = 0;
+		AnimationStateWithType (YoonAnimationType.WALK).weight = 0;
+		AnimationStateWithType (YoonAnimationType.RUN).layer = 0;
+		AnimationStateWithType (YoonAnimationType.JUMP).layer = 1;
+		AnimationStateWithType (YoonAnimationType.HW_ATTACK).layer = 2;
+		AnimationStateWithType (YoonAnimationType.HW_ATTACK).blendMode = AnimationBlendMode.Blend;
+		AnimationStateWithType (YoonAnimationType.HW_ATTACK).AddMixingTransform (yoonBody);
+
 	}
 
 	public void Walk ()
@@ -62,6 +85,12 @@ public class YoonAnimationController : MonoBehaviour
 
 	public void Jump ()
 	{
-		animation.CrossFade (animationClips[(int)YoonAnimationType.JUMP]);
+		animation.CrossFade (animationClips[(int)YoonAnimationType.JUMP], 0.05f);
 	}
+
+	public void Attack ()
+	{
+		animation.CrossFade (animationClips [(int)YoonAnimationType.HW_ATTACK], 0.05f);
+	}
+	
 }

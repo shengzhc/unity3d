@@ -23,7 +23,11 @@ public class YoonMovement : MonoBehaviour
 		Rotating (h, v);
 
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			Jumping ();
+			animator.Jump ();
+		}
+
+		if (Input.GetKeyDown (KeyCode.J)) {
+			animator.Attack ();
 		}
 	}
 
@@ -45,10 +49,5 @@ public class YoonMovement : MonoBehaviour
 			Quaternion newRotation = Quaternion.Lerp (transform.rotation, targetRotation, turningSmoothing * Time.deltaTime);
 			transform.rotation = newRotation;
 		}
-	}
-
-	void Jumping () 
-	{
-		animator.Jump ();
 	}
 }
