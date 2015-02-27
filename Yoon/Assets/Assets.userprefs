@@ -1,26 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game/Scripts/Player/YoonAnimationController.cs">
-    <Files>
-      <File FileName="Assets/Game/Scripts/Player/YoonMovement.cs" Line="10" Column="17" />
-      <File FileName="Assets/Game/Scripts/Player/YoonAnimationController.cs" Line="41" Column="12" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Game" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Player" expanded="True">
-                  <Node name="YoonAnimationController.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
